@@ -1,0 +1,82 @@
+.wp-block-limon-team-members {
+	display: grid;
+	gap: 0;
+	
+	@for $i from 1 through 9 {
+		&.has-columns-#{$i} {
+			grid-template-columns: repeat(#{$i}, 1fr);
+		}
+	}
+
+	.wp-block-limon-team-member {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 0;
+
+		h4 {
+			font-size: 22px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		p {
+			font-size: 16px;
+			font-weight: 300;
+			margin-bottom: 5px;
+			margin-top: 5px;
+		}
+
+		img {
+			border-radius: 50%;
+			margin-bottom: 25px;
+		}
+
+		.wp-block-limon-team-member-social-links {
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 10px -5px 0;
+
+				li {
+					display: inline-block;
+					margin: 5px;
+
+					a {
+						text-decoration: none;
+						
+						span {
+							color: #ffffff !important;
+						}
+					}
+				}
+			}
+		}
+		
+		// Add bottom border for team members with the class
+		&.has-bottom-border {
+			border-bottom: 1px dashed #ffffff;
+		}
+	}
+
+	// Add right border to team members that are not in the last column
+	.wp-block-limon-team-member:not(.last-column) {
+		border-right: 1px dashed #ffffff;
+	}
+}
+
+
+.wp-block-limon-logo-slider {
+	.slick-track {
+		display: flex;
+		align-items: center;
+	}
+	.wp-block-limon-logo-slider-item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 20px;
+	}
+}
+

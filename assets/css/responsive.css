@@ -1,0 +1,176 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 1199px)  { 
+
+}
+@media (max-width: 991px)  { 
+	.logistic-footer-column_four .logistico-footer-widget {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+    p.lgtico-copywright {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    header#masthead {
+        padding: 20px 0;
+    }
+    .lgtico-input-item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    .site-header-menu {
+        display: none;
+    }
+    .site-header-menu.toggled-on, .no-js .site-header-menu {
+        display: block;
+    }
+    .lgtico-menu ul li {
+        display: block;
+        float: none;
+        margin: 0 !important;
+        border-top: 1px solid #d1d1d1;
+    }
+    .lgtico-menu ul li a {
+        padding: 5px 0 5px 0;
+        display: inline-block;
+    }
+    .main-navigation .menu-item-has-children > a:after {
+        opacity: 0;
+    }
+    .dropdown-toggle {
+        display: inline-block;
+    }
+    .lgtico-nav-wrap {
+        width: 100%;
+    }
+    .lgtico-menu ul li a {
+        display: block;
+        margin-right: 48px;
+        font-size: 1rem;
+    }
+    .main-navigation .primary-menu {
+        border-bottom: 1px solid #d1d1d1;
+    }
+    .site-branding {
+        width: 100%;
+    }
+    .main-navigation {
+        margin-top: 40px;
+    }
+    .main-navigation ul ul {
+        display: none;
+    }
+    .main-navigation ul ul {
+        box-shadow: none;
+        position: relative;
+        top: 0;
+        z-index: 99999;
+        visibility: visible;
+        opacity: 1;
+        display: none;
+        margin-left: 0.875em;
+    }
+    .main-navigation ul .toggled-on {
+        display: block;
+    }
+    .main-navigation ul ul li:hover > ul, 
+    .main-navigation ul ul li.focus > ul {
+        left: inherit;
+    }
+    .main-navigation ul ul a {
+        width: inherit;
+    }
+    .main-navigation ul ul ul {
+        left: inherit;
+        top: inherit;
+    }
+    .lgtico-menu ul li ul {
+        padding: 0;
+    }
+    .lgtico-menu ul li ul li a,
+    .lgtico-menu ul li a {
+        padding: 8px 0 8px 0;
+    }
+
+    ul.sub-menu.mega-menu > li.has-menu-image {
+        display: none;
+    }
+    ul.sub-menu.mega-menu {
+        flex-direction: column;
+        background-color: transparent;
+        padding: 0 0 0 0;
+        display: none;
+    }
+    .main-navigation ul.main-menu {
+        display: block;
+    }
+    .main-navigation ul ul a, 
+    .main-navigation ul ul a:hover, 
+    .main-navigation ul ul a:focus, 
+    .main-navigation ul ul a:active {
+        color: #1D1133 !important;
+        display: block;
+        padding: 10px 0 !important;
+    }
+    .lgtico-menu ul li ul {
+        background-color: transparent;
+    }
+    ul.sub-menu.mega-menu > li > a {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .main-navigation li {
+        position: relative;
+    }
+
+    ul.sub-menu,
+    .mega-menu .menu-item-has-children ul {
+        display: none;
+    }
+    
+    ul.sub-menu.mega-menu.toggled-on,
+    ul.sub-menu.toggled-on,
+    .mega-menu .menu-item-has-children ul.toggled-on {
+        display: block;
+        padding-left: 15px;
+    }
+    figure.wp-block-image.hide-mobile {
+        display: none;
+    }
+
+    .wp-block-limon-team-members.has-columns-3 {
+        grid-template-columns: repeat(1, 1fr) !important;
+        border-right: 0 dashed transparent !important;
+    }
+
+    .wp-block-limon-team-members .wp-block-limon-team-member:not(.last-column) {
+        border-right: 0 dashed transparent !important;
+    }
+
+    .lgtico--footer-column {
+        flex-direction: column;
+    }
+
+    .buttons-group-wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 767px)  { 
+	.bootstrap-wrapper {
+        overflow: hidden;
+    }
+
+    figure.wp-block-image.hide-mobile {
+        display: none;
+    }
+    
+}

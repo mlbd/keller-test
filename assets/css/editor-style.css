@@ -1,0 +1,11 @@
+.position-relative {
+    position: relative;;
+}
+
+.floating-diamond {
+    position: absolute !important;
+    bottom: 20px;
+    width: 300px;
+    left: -135px;
+    z-index: 1;
+}
